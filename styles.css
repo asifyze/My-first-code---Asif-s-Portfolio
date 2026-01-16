@@ -1,0 +1,164 @@
+* {
+            padding: 0;
+            margin: 0;
+        }
+
+        :root {
+            --main-font: "Doto", sans-serif;
+            --main-font-weight: bolder;
+            --main-font-size: 2.5rem;
+        }
+
+        .logo {
+            font-family: var(--main-font);
+            font-size: var(--main-font-size);
+            font-weight: var(--main-font-weight);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-image: linear-gradient(to right, rgb(0, 0, 0), purple);
+            height: 5vh;
+            position: sticky;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            color: white;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        nav ul li a:hover {
+            color: rgb(147, 179, 177);
+        }
+
+        .profile-pic {
+            width: 270px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 50vh;
+            background-image: linear-gradient(to right, white, rgb(137, 157, 167));
+            background-size: cover;
+        }
+
+        .hero-left-heading {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+            font-weight: bolder;
+        }
+
+        .hero-left p {
+            font-size: 1.5rem;
+            font-family: monospace;
+            padding-bottom: 10px;
+        }
+
+        .text-asif-description {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3rem;
+            font-weight: bolder
+        }
+
+        .btn {
+            width: 130px;
+            height: 32px;
+            border-radius: 10px;
+            border: none;
+            background-color: purple;
+            color: white;
+            font-size: 100%;
+            font-family: arial;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: rgb(133, 62, 133);
+        }
+
+        .project-img{
+            width: 400px;
+        }
+
+        .projects{
+            display: flex;
+            gap: 10px;
+            padding: 2rem;
+            border-top: 1px solid rgb(255,136, 58);
+            background-image: linear-gradient(to right, beige, rgb(162, 225, 243));
+        }
+
+        .project{
+            display: flex;
+            flex-direction: column;
+        }
+       
+        .project-text{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .project-text-para{
+            font-family: sans-serif;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .projects1{
+            display: flex;
+            flex-direction: row-reverse;
+            padding: 2rem;
+            border-top: 1px solid rgb(255,136, 58);
+            background-image: linear-gradient(to right, beige, rgb(162, 225, 243));
+        }
+
+
+        .btn-content{
+            width: 100px;
+            height: 32px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(3, 0, 3);
+            color: white;
+            font-size: 100%;
+            font-family: arial;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            background-color: rgb(30, 73, 174);
+            margin-top: 10px;
+            font-weight: bold;
+            font-family: Calibri;
+        }
+
+        .project-img{
+            border-radius: 2rem;
+        }
